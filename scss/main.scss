@@ -12,11 +12,19 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(rgb(50, 45, 40) 0%, rgb(108, 111, 112) 100%);
+    padding-bottom: 8rem;
+
+}
+
+.logo {
+    margin-bottom: 2rem;
 
 }
 
@@ -24,18 +32,23 @@ body {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    width: 1000px;
-    height: 600px;
-    background-color: lightgreen;
-    // padding: 1rem 1rem;
+    width: 900px;
     &__cards {
         display: flex;
-        width: 40%;
-        height: 100%;
+        width: 400px;
+        height: 600px;
         background-color: lightcoral;
         border-radius: 2rem;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+        cursor: pointer;
     }
     &__card-one {
+        background-image: url('../img/cards/card1.jpg');
 
+    }
+    &__card-two {
+        background-image: url('../img/cards/card2.jpg');
     }
 }
