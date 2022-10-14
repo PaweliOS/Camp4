@@ -1,1 +1,36 @@
-/*# sourceMappingURL=main.css.map */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 600px;
+  background-color: lightgreen;
+}
+.box__cards {
+  display: flex;
+  width: 40%;
+  height: 100%;
+  background-color: lightcoral;
+  border-radius: 2rem;
+}/*# sourceMappingURL=main.css.map */
