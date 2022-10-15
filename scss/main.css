@@ -22,7 +22,7 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo {
+.header__.logo {
   margin-bottom: 1rem;
 }
 
@@ -81,11 +81,22 @@ body {
   color: white;
 }
 
+.footer__text {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 0;
+  left: 0;
+  bottom: 5px;
+  color: rgb(185, 184, 184);
+  text-align: center;
+  font-size: 1.4rem;
+}
+
 @media (min-width: 576px) {
   body {
     padding-bottom: 8rem;
   }
-  .logo {
+  .header__logo {
     margin-bottom: 2rem;
   }
   .box {
@@ -116,6 +127,12 @@ body {
   }
   .box__intro-button {
     display: block;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
     padding: 0.5rem 5rem;
     margin-top: 2rem;
     color: #f6931d;
