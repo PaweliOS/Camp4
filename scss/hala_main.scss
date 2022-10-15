@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(rgb(50, 45, 40) 0%, rgb(108, 111, 112) 100%);
+    padding-bottom: 8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f6931d;
+}
