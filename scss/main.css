@@ -84,7 +84,6 @@ body {
 .footer__text {
   position: absolute;
   width: 100%;
-  margin-bottom: 0;
   left: 0;
   bottom: 5px;
   color: rgb(185, 184, 184);
