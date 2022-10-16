@@ -15,8 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
-    justify-content: center;
+    padding-bottom: 2rem;
+    justify-content: start;
     align-items: center;
     background: radial-gradient(rgb(50, 45, 40) 0%, rgb(108, 111, 112) 100%);
     
@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-
+    margin-top: 4rem;
     &__logo {
         margin-bottom: 3rem;
     
@@ -123,12 +123,14 @@ body {
 
 @media (min-width: 576px) {
     body {
-        padding-bottom: 8rem;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 4rem 0;
     }
 
     .header {
         &__logo {
-            margin-bottom: 5rem;
+            margin-bottom: 3rem;
         }
     }    
     .box {
