@@ -27,9 +27,9 @@ body {
 
 .header {
     position: relative;
-    margin-top: 4rem;
+    margin-top: 2rem;
     &__logo {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     
     }
 }
@@ -159,14 +159,14 @@ body {
 
         &__card-one {
             
-            margin-bottom: 2rem;
+            // margin-bottom: 2rem;
             margin-left: auto;
             animation: moveToUp 1s ease-out forwards;
         }
     
         &__card-two {
             
-            margin-bottom: 2rem;
+            // margin-bottom: 2rem;
             margin-left: auto;
             // animation: moveToUp 1s .3s ease-out forwards;
         }

@@ -19,7 +19,7 @@
     margin-bottom: -200%;
   }
   to {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
 @keyframes moveToUp {
@@ -27,7 +27,7 @@
     margin-bottom: -200%;
   }
   to {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 }
 *,
@@ -56,10 +56,10 @@ body {
 
 .header {
   position: relative;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .header__logo {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .box {
@@ -160,13 +160,11 @@ body {
     margin: 0 4rem 0 0;
   }
   .box__card-one {
-    margin-bottom: 2rem;
     margin-left: auto;
     -webkit-animation: moveToUp 1s ease-out forwards;
             animation: moveToUp 1s ease-out forwards;
   }
   .box__card-two {
-    margin-bottom: 2rem;
     margin-left: auto;
   }
 }
