@@ -22,8 +22,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.header__.logo {
-  margin-bottom: 1rem;
+.header__logo {
+  margin-bottom: 3rem;
 }
 
 .box {
@@ -96,7 +96,7 @@ body {
     padding-bottom: 8rem;
   }
   .header__logo {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
   .box {
     display: flex;

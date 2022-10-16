@@ -25,8 +25,8 @@ body {
 
 .header {
 
-    &__.logo {
-        margin-bottom: 1rem;
+    &__logo {
+        margin-bottom: 3rem;
     
     }
 }
@@ -104,6 +104,7 @@ body {
 }
 
 .footer {
+    
     &__text {
         position: absolute;
         width: 100%;
@@ -127,7 +128,7 @@ body {
 
     .header {
         &__logo {
-            margin-bottom: 2rem;
+            margin-bottom: 5rem;
         }
     }    
     .box {
