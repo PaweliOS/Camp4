@@ -1,3 +1,5 @@
+@use './animations' as *;
+
 *,
 *::before,
 *::after {
@@ -66,12 +68,16 @@ body {
 // }
     &__card-one {
         background-image: url('../img/cards/card1.jpg');
-        // margin-bottom: 2rem;
-        margin: 0 0 2rem 0;
+        margin-bottom: 2rem;
+        margin-left: -200%;
+        animation: moveToRight 1s ease-out forwards;
     }
 
     &__card-two {
         background-image: url('../img/cards/card2.jpg');
+        margin-bottom: 2rem;
+        margin-left: -200%;
+        animation: moveToRight 1s .3s ease-out forwards;
     }
 
     &__intro {
@@ -93,8 +99,6 @@ body {
     
     &__intro-button {
         display:  none;
-        // width: 100%;
-        // height: 100%;
     }
 
     &__intro-button:hover {
@@ -106,11 +110,9 @@ body {
 
 .footer {
     position: relative;
+    width: 100%;
     &__text {
         position: relative;
-        width: 100%;
-        // left: 0;
-        // bottom: 1px;
         margin-top: 3rem;
         color: rgb(185, 184, 184);
         text-align: center;
@@ -152,11 +154,22 @@ body {
         }
 
         &__card-one {
-            margin-right: 4rem;
             margin: 0 4rem 0 0;
         }
 
-
+        &__card-one {
+            
+            margin-bottom: 2rem;
+            margin-left: auto;
+            animation: moveToUp 1s ease-out forwards;
+        }
+    
+        &__card-two {
+            
+            margin-bottom: 2rem;
+            margin-left: auto;
+            // animation: moveToUp 1s .3s ease-out forwards;
+        }
     }
 
 

@@ -1,0 +1,19 @@
+@keyframes moveToRight {
+    from {
+        margin-left: -200%;
+    }
+    to {
+        margin-left: 1rem;
+    }
+} 
+
+@keyframes moveToUp {
+    from {
+        margin-bottom: -200%;
+    }
+    to {
+        margin-bottom: 1rem;
+    }
+} 
+
+
