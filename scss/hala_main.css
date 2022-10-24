@@ -21,6 +21,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.header {
+  width: 100vw;
+}
 .header__hero-img {
   position: relative;
   width: 100%;
@@ -36,6 +39,23 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
+}
+.header__hero-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+.header__title-text {
+  font-size: 6rem;
+}
+.header__arrow-down {
+  font-size: 6rem;
 }
 
 .intro {

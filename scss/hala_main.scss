@@ -30,6 +30,7 @@ body {
 }
 
 .header {
+    width: 100vw;
     &__hero-img {
         position: relative;
         width: 100%;
@@ -48,6 +49,28 @@ body {
         background-color: rgba(0, 0, 0, 0.3);
         z-index: 1;
     }
+
+    &__hero-text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        z-index: 3;
+    }
+
+    &__title-text {
+       font-size: 6rem;
+    }
+
+    &__arrow-down {
+     
+        font-size: 6rem;
+      
+    }
     
 }
 
@@ -56,10 +79,3 @@ body {
     height: 100vh;
     background-color: #fac27f;
 }
-// .box {
-
-// }
-
-// .bi {
-//     font-size: 5rem;
-// }
