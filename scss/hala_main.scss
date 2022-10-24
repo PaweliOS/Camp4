@@ -21,13 +21,45 @@ body {
     background: radial-gradient(rgb(50, 45, 40) 0%, rgb(108, 111, 112) 100%);
     padding-bottom: 8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f6931d;
-}
-
-.box {
 
 }
 
-.bi {
-    font-size: 5rem;
+.navbar {
+    // position: fixed;
+    // width: 100vw;
 }
+
+.header {
+    &__hero-img {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        // background-color: #f9aa49;
+        background-image: url('../img/hala/rock-climbing_1920.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    &__hero-shadow {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        z-index: 1;
+    }
+    
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    background-color: #fac27f;
+}
+// .box {
+
+// }
+
+// .bi {
+//     font-size: 5rem;
+// }
