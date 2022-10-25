@@ -54,13 +54,21 @@ body {
 }
 .header__arrow-down {
   position: absolute;
+  display: flex;
+  width: 90px;
+  height: 90px;
   left: 50%;
   transform: translateX(-50%);
   bottom: 50px;
   font-size: 6rem;
-  color: rgb(253, 166, 6);
   cursor: pointer;
+  background-color: none;
+  border-radius: 50%;
+  transition: 0.3s background-color;
   z-index: 4;
+}
+.header__arrow-down:hover {
+  background-color: rgb(254, 117, 5);
 }
 
 .intro {

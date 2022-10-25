@@ -68,14 +68,24 @@ body {
 
     &__arrow-down {
         position: absolute;
+        display: flex;
+         width: 90px;
+         height: 90px;
         left: 50%;
         transform: translateX(-50%);
         bottom: 50px;
         font-size: 6rem;
-        color: rgb(253, 166, 6);
         cursor: pointer;
+        background-color: none;
+        border-radius: 50%;
+        transition: .3s background-color;
         z-index: 4;
     }
+
+    &__arrow-down:hover {
+        background-color:  rgb(254, 117, 5);
+    }
+
 
 
     
