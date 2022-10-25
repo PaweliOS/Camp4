@@ -1,3 +1,4 @@
+@use './colors' as *; 
 *,
 *::before,
 *::after {
@@ -18,7 +19,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(rgb(50, 45, 40) 0%, rgb(108, 111, 112) 100%);
+    background: $bodyGradientGrey;
     padding-bottom: 8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -83,7 +84,7 @@ body {
     }
 
     &__arrow-down:hover {
-        background-color:  rgb(254, 117, 5);
+        background-color: $orange;
     }
 
 
