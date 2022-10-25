@@ -32,8 +32,8 @@ body {
 .header {
     width: 100vw;
     &__hero-img {
-        position: relative;
-        width: 100%;
+        // position: relative;
+        // width: 100%;
         height: 100vh;
         // background-color: #f9aa49;
         background-image: url('../img/hala/rock-climbing_1920.jpg');
@@ -67,12 +67,20 @@ body {
     }
 
     &__arrow-down {
-     
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 50px;
         font-size: 6rem;
-      
+        color: rgb(253, 166, 6);
+        cursor: pointer;
+        z-index: 4;
     }
+
+
     
 }
+
 
 .intro {
     width: 100%;
