@@ -141,7 +141,7 @@ body {
 
     &__row-one, &__row-two {
         font-size: 8rem;
-        margin-bottom: 4rem;
+        margin-bottom: 8rem;
         text-align: justify;
     }
 
@@ -168,3 +168,8 @@ body {
     
 
 }
+
+
+@use './small' as *;
+@use './medium' as *;
+@use './large' as *;
