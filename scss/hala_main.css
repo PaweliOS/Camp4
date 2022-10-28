@@ -83,10 +83,10 @@ body {
   text-align: justify;
 }
 .intro__text:nth-child(1) {
-  padding: 1rem 15rem 1rem 30rem;
+  padding: 1rem 0 1rem 30rem;
 }
 .intro__text:nth-child(2) {
-  padding: 10rem 30rem 10rem 15rem;
+  padding: 10rem 30rem 10rem 0;
 }
 .intro__text:nth-child(3) {
   text-align: center;
@@ -102,11 +102,19 @@ body {
 .aboutus {
   position: relative;
   width: 100%;
-  padding: 15rem 15rem 15rem 15rem;
+  padding: 10rem 15rem 15rem 15rem;
 }
 .aboutus__image-one {
   width: 40%;
 }
-.aboutus [class*=picture] {
-  border: 10px solid orange;
+.aboutus__row-one, .aboutus__row-two {
+  font-size: 8rem;
+  margin-bottom: 4rem;
+  text-align: justify;
+}
+.aboutus__row-one-text-details {
+  font-size: 6rem;
+}
+.aboutus__picture-details {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }/*# sourceMappingURL=hala_main.css.map */
