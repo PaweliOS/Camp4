@@ -51,13 +51,13 @@ body {
   z-index: 3;
 }
 .header__title-text {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 .header__arrow-down {
   position: absolute;
   display: flex;
-  width: 90px;
-  height: 90px;
+  width: 50px;
+  height: 50px;
   left: 50%;
   transform: translateX(-50%);
   bottom: 50px;
@@ -75,7 +75,7 @@ body {
 .intro {
   width: 100%;
   background-color: rgb(46, 46, 45);
-  padding: 15rem 15rem 15rem 15rem;
+  padding: 1rem;
   color: rgb(255, 255, 255);
 }
 .intro__text {
@@ -83,10 +83,10 @@ body {
   text-align: justify;
 }
 .intro__text:nth-child(1) {
-  padding: 1rem 0 1rem 30rem;
+  padding: 1rem 4rem 0 0;
 }
 .intro__text:nth-child(2) {
-  padding: 10rem 30rem 10rem 0;
+  padding: 1rem 1rem 1rem 4rem;
 }
 .intro__text:nth-child(3) {
   text-align: center;
@@ -102,19 +102,48 @@ body {
 .aboutus {
   position: relative;
   width: 100%;
-  padding: 10rem 15rem 15rem 15rem;
+  padding: 2rem 1rem 1rem;
 }
 .aboutus__image-one {
   width: 40%;
 }
-.aboutus__row-one, .aboutus__row-two {
+.aboutus__row-one, .aboutus__row-two, .aboutus__row-three {
   font-size: 8rem;
-  margin-bottom: 8rem;
+  margin-bottom: 1rem;
   text-align: justify;
 }
 .aboutus__row-one-text-details {
-  font-size: 6rem;
+  font-size: 4rem;
 }
 .aboutus__picture-details {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 576px) {
+  .header__arrow-down {
+    width: 90px;
+    height: 90px;
+  }
+  .header__title-text {
+    font-size: 6rem;
+  }
+  .intro {
+    padding: 15rem 15rem 15rem 15rem;
+  }
+  .intro__text:nth-child(1) {
+    padding: 1rem 0 1rem 30rem;
+  }
+  .intro__text:nth-child(2) {
+    padding: 10rem 30rem 10rem 0;
+  }
+  .aboutus {
+    padding: 10rem 15rem 15rem 15rem;
+  }
+  .aboutus__row-one-text-details {
+    font-size: 6rem;
+  }
+  .aboutus__row-one, .aboutus__row-two, .aboutus__row-three {
+    font-size: 8rem;
+    margin-bottom: 8rem;
+  }
 }/*# sourceMappingURL=hala_main.css.map */
