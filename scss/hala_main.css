@@ -107,7 +107,7 @@ body {
 .aboutus__image-one {
   width: 40%;
 }
-.aboutus__row-one, .aboutus__row-two, .aboutus__row-three {
+.aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__four {
   font-size: 8rem;
   margin-bottom: 1rem;
   text-align: justify;
