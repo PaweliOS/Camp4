@@ -108,7 +108,7 @@ body {
   width: 40%;
 }
 .aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__four {
-  font-size: 8rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
   text-align: justify;
 }
@@ -120,6 +120,11 @@ body {
 }
 
 @media (min-width: 576px) {
+  .aboutus__row-two-text, .aboutus__row-three-text, .aboutus__row-four-text {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
   .header__arrow-down {
     width: 90px;
     height: 90px;
@@ -139,11 +144,11 @@ body {
   .aboutus {
     padding: 10rem 15rem 15rem 15rem;
   }
+  .aboutus__rows {
+    margin-bottom: 8rem;
+    font-size: 7rem;
+  }
   .aboutus__row-one-text-details {
     font-size: 6rem;
-  }
-  .aboutus__row-one, .aboutus__row-two, .aboutus__row-three {
-    font-size: 8rem;
-    margin-bottom: 8rem;
   }
 }/*# sourceMappingURL=hala_main.css.map */
