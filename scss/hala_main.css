@@ -109,7 +109,7 @@ body {
 }
 .aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__four {
   font-size: 1.6rem;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   text-align: justify;
 }
 .aboutus__row-one-text-details {
@@ -124,6 +124,17 @@ body {
     font-size: 2rem;
   }
 }
+@media (min-width: 768px) {
+  .intro {
+    padding: 3rem 6rem;
+  }
+  .intro__text:nth-child(1) {
+    padding: 1rem 0 1rem 5rem;
+  }
+  .intro__text:nth-child(2) {
+    padding: 5rem 5rem 5rem 0;
+  }
+}
 @media (min-width: 1200px) {
   .header__arrow-down {
     width: 90px;
@@ -133,13 +144,13 @@ body {
     font-size: 6rem;
   }
   .intro {
-    padding: 15rem 15rem 15rem 15rem;
+    padding: 10rem 15rem 10rem 15rem;
   }
   .intro__text:nth-child(1) {
-    padding: 1rem 0 1rem 30rem;
+    padding: 1rem 0 1rem 10rem;
   }
   .intro__text:nth-child(2) {
-    padding: 10rem 30rem 10rem 0;
+    padding: 10rem 10rem 10rem 0;
   }
   .aboutus {
     padding: 10rem 15rem 15rem 15rem;
