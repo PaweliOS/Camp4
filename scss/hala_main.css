@@ -107,9 +107,8 @@ body {
 .aboutus__image-one {
   width: 40%;
 }
-.aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__four {
+.aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__row-four {
   font-size: 1.6rem;
-  margin-bottom: 4rem;
   text-align: justify;
 }
 .aboutus__row-one-text-details {
@@ -117,6 +116,9 @@ body {
 }
 .aboutus__picture-details {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+.aboutus__rows {
+  margin-bottom: 4rem;
 }
 
 @media (min-width: 576px) {

@@ -141,9 +141,9 @@ body {
         width: 40%;
     }
 
-    &__row-one, &__row-two, &__row-three, &__four {
+    &__row-one, &__row-two, &__row-three, &__row-four {
         font-size: 1.6rem;
-        margin-bottom: 4rem;
+        // margin-bottom: 4rem;
         text-align: justify;
     }
 
@@ -157,9 +157,9 @@ body {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
 
     }
-    // &__rows {
-    //     margin-bottom: 4rem;
-    // }
+    &__rows {
+        margin-bottom: 4rem;
+    }
    
 
 
