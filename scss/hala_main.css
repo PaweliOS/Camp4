@@ -114,7 +114,6 @@ body {
   height: 50px;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 50px;
   background-color: transparent;
   border: 2px solid orange;
   border-radius: 50%;
@@ -124,6 +123,7 @@ body {
   z-index: 4;
   -webkit-animation: backGroundArrow 4s ease-in-out infinite;
           animation: backGroundArrow 4s ease-in-out infinite;
+  bottom: 50px;
 }
 .header__arrow-down:hover {
   background-color: rgb(254, 117, 5);
@@ -132,7 +132,7 @@ body {
 .intro {
   width: 100%;
   background-color: rgb(46, 46, 45);
-  padding: 1rem;
+  padding: 1rem 1rem 10rem 1rem;
   color: rgb(255, 255, 255);
 }
 .intro__text {
@@ -154,6 +154,30 @@ body {
 .intro__text:nth-child(5) {
   text-align: center;
   margin-top: 3rem;
+}
+.intro__arrow {
+  position: relative;
+}
+.intro__arrow-down {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border: 2px solid orange;
+  border-radius: 50%;
+  transition: 0.3s background-color;
+  font-size: 6rem;
+  cursor: pointer;
+  z-index: 4;
+  -webkit-animation: backGroundArrow 4s ease-in-out infinite;
+          animation: backGroundArrow 4s ease-in-out infinite;
+  margin-top: 20px;
+}
+.intro__arrow-down:hover {
+  background-color: rgb(254, 117, 5);
 }
 
 .aboutus {
@@ -185,7 +209,7 @@ body {
 }
 @media (min-width: 768px) {
   .intro {
-    padding: 3rem 6rem;
+    padding: 1rem 6rem 10rem;
   }
   .intro__text:nth-child(1) {
     padding: 1rem 0 1rem 5rem;
@@ -203,13 +227,17 @@ body {
     font-size: 6rem;
   }
   .intro {
-    padding: 10rem 15rem 10rem 15rem;
+    padding: 10rem 15rem 15rem 15rem;
   }
   .intro__text:nth-child(1) {
     padding: 1rem 0 1rem 10rem;
   }
   .intro__text:nth-child(2) {
     padding: 10rem 10rem 10rem 0;
+  }
+  .intro__arrow-down {
+    width: 90px;
+    height: 90px;
   }
   .aboutus {
     padding: 10rem 15rem 15rem 15rem;

@@ -1,6 +1,23 @@
 @use './colors' as *;
 @use './animations' as *;
 
+@mixin arrowDown {
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 50%;
+    transition: .3s background-color;
+    font-size: 6rem;
+    cursor: pointer;
+    z-index: 4;
+    animation: backGroundArrow 4s ease-in-out infinite;
+}
 
 *,
 *::before,
@@ -72,21 +89,8 @@ body {
     }
 
     &__arrow-down {
-        position: absolute;
-        display: flex;
-        width: 50px;
-        height: 50px;
-        left: 50%;
-        transform: translateX(-50%);
+        @include arrowDown();
         bottom: 50px;
-        background-color: transparent;
-        border: 2px solid orange;
-        border-radius: 50%;
-        transition: .3s background-color;
-        font-size: 6rem;
-        cursor: pointer;
-        z-index: 4;
-        animation: backGroundArrow 4s ease-in-out infinite;
     }
 
     &__arrow-down:hover {
@@ -104,7 +108,7 @@ body {
     width: 100%;
     // height: 100vh;
     background-color: $grey-intro;
-    padding: 1rem;
+    padding: 1rem 1rem 10rem 1rem;
     color: $text-intro;
     &__text {
         font-size: 2rem;
@@ -129,6 +133,16 @@ body {
         margin-top: 3rem;
     }
 
+    &__arrow {
+        position: relative;
+    }
+    &__arrow-down {
+        @include arrowDown();
+        margin-top: 20px;
+    }
+    &__arrow-down:hover {
+        background-color: $orange;
+    }
 
 }
 
@@ -190,7 +204,7 @@ body {
 
 @media (min-width: 768px) {
     .intro {
-        padding: 3rem 6rem;
+        padding: 1rem 6rem 10rem;
 
         &__text:nth-child(1) {
             padding: 1rem 0 1rem 5rem;
@@ -215,7 +229,7 @@ body {
     }
 
     .intro {
-        padding: 10rem 15rem 10rem 15rem;
+        padding: 10rem 15rem 15rem 15rem;
 
         &__text:nth-child(1) {
             padding: 1rem 0 1rem 10rem;
@@ -225,6 +239,10 @@ body {
             padding: 10rem 10rem 10rem 0;
         }
 
+        &__arrow-down {
+            width: 90px;
+            height: 90px;
+        }
     }
 
     .aboutus {
