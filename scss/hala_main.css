@@ -202,6 +202,38 @@ body {
   margin-bottom: 4rem;
 }
 
+.footer {
+  width: 100vw;
+}
+.footer__hero-img {
+  height: 100vh;
+  background-image: url("../img/hala/rock-climbing_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer__hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.footer__hero-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+.footer__title-text {
+  font-size: 4rem;
+}
+
 @media (min-width: 576px) {
   .aboutus__row-two-text, .aboutus__row-three-text, .aboutus__row-four-text, .aboutus__row-five-text, .aboutus__row-six-text, .aboutus__row-seven-text {
     font-size: 2rem;
@@ -240,7 +272,7 @@ body {
     height: 90px;
   }
   .aboutus {
-    padding: 10rem 15rem 15rem 15rem;
+    padding: 10rem 15rem 5rem 15rem;
   }
   .aboutus__rows {
     margin-bottom: 8rem;
