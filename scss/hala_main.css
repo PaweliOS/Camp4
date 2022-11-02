@@ -1,3 +1,57 @@
+@-webkit-keyframes moveToRight {
+  from {
+    margin-left: -200%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+@keyframes moveToRight {
+  from {
+    margin-left: -200%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+@-webkit-keyframes moveToUp {
+  from {
+    margin-bottom: -200%;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}
+@keyframes moveToUp {
+  from {
+    margin-bottom: -200%;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}
+@-webkit-keyframes backGroundArrow {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+@keyframes backGroundArrow {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
 *,
 *::before,
 *::after {
@@ -61,12 +115,15 @@ body {
   left: 50%;
   transform: translateX(-50%);
   bottom: 50px;
-  font-size: 6rem;
-  cursor: pointer;
-  background-color: none;
+  background-color: transparent;
+  border: 2px solid orange;
   border-radius: 50%;
   transition: 0.3s background-color;
+  font-size: 6rem;
+  cursor: pointer;
   z-index: 4;
+  -webkit-animation: backGroundArrow 4s ease-in-out infinite;
+          animation: backGroundArrow 4s ease-in-out infinite;
 }
 .header__arrow-down:hover {
   background-color: rgb(254, 117, 5);

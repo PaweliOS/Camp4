@@ -1,4 +1,5 @@
 @use './colors' as *;
+@use './animations' as *;
 
 
 *,
@@ -67,28 +68,31 @@ body {
     }
 
     &__title-text {
-       font-size: 4rem;
+        font-size: 4rem;
     }
 
     &__arrow-down {
         position: absolute;
         display: flex;
-         width: 50px;
-         height: 50px;
+        width: 50px;
+        height: 50px;
         left: 50%;
         transform: translateX(-50%);
         bottom: 50px;
-        font-size: 6rem;
-        cursor: pointer;
-        background-color: none;
+        background-color: transparent;
+        border: 2px solid orange;
         border-radius: 50%;
         transition: .3s background-color;
+        font-size: 6rem;
+        cursor: pointer;
         z-index: 4;
+        animation: backGroundArrow 4s ease-in-out infinite;
     }
 
     &__arrow-down:hover {
         background-color: $orange;
     }
+    
 
 
 

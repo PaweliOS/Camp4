@@ -16,4 +16,18 @@
     }
 } 
 
+@keyframes backGroundArrow {
+    0% {
+        // background-color: transparent;
+        border-color: transparent;
+    }
+    50% {
+        // background-color: orange;
+        border-color: orange;
+    }
+    100% {
+        // background-color: transparent;
+        border-color: transparent;
+    }
+}
 
