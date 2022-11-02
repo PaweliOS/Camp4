@@ -107,7 +107,7 @@ body {
 .aboutus__image-one {
   width: 40%;
 }
-.aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__row-four {
+.aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__row-four, .aboutus__row-five, .aboutus__row-six, .aboutus__row-seven {
   font-size: 1.6rem;
   text-align: justify;
 }
@@ -122,7 +122,7 @@ body {
 }
 
 @media (min-width: 576px) {
-  .aboutus__row-two-text, .aboutus__row-three-text, .aboutus__row-four-text {
+  .aboutus__row-two-text, .aboutus__row-three-text, .aboutus__row-four-text, .aboutus__row-five-text, .aboutus__row-six-text, .aboutus__row-seven-text {
     font-size: 2rem;
   }
 }

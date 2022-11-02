@@ -141,7 +141,7 @@ body {
         width: 40%;
     }
 
-    &__row-one, &__row-two, &__row-three, &__row-four {
+    &__row-one, &__row-two, &__row-three, &__row-four, &__row-five, &__row-six, &__row-seven {
         font-size: 1.6rem;
         // margin-bottom: 4rem;
         text-align: justify;
@@ -178,7 +178,7 @@ body {
 
 @media (min-width: 576px) {
     .aboutus {
-        &__row-two-text, &__row-three-text, &__row-four-text {
+        &__row-two-text, &__row-three-text, &__row-four-text, &__row-five-text, &__row-six-text, &__row-seven-text {
             font-size: 2rem;
         }
     }   
@@ -235,14 +235,6 @@ body {
             font-size: 6rem;
          
         }
-
-        &__row-one, &__row-two, &__row-three {
-            // font-size: 8rem;
-            // margin-bottom: 8rem;
-
-        }
-
-
 
     }
 
