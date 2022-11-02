@@ -132,7 +132,7 @@ body {
 .intro {
   width: 100%;
   background-color: rgb(46, 46, 45);
-  padding: 1rem 1rem 10rem 1rem;
+  padding: 6rem 1rem 10rem 1rem;
   color: rgb(255, 255, 255);
 }
 .intro__text {
@@ -183,7 +183,7 @@ body {
 .aboutus {
   position: relative;
   width: 100%;
-  padding: 2rem 1rem 1rem;
+  padding: 6rem 1rem 1rem;
 }
 .aboutus__image-one {
   width: 40%;

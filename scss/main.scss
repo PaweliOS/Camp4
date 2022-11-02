@@ -23,6 +23,9 @@ body {
     align-items: center;
     background-color: $bodyGradientGrey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:sans-serif;
+    // font-weight: 100;
 }
 
 .header {
@@ -54,6 +57,8 @@ body {
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
         cursor: pointer;
         overflow: hidden;
+        // font-style:normal;
+        // font-weight: lighter;
 
         h1 {
             text-align: center;
@@ -87,6 +92,7 @@ body {
         color: white;
         text-transform: uppercase;
         transition: clip-path 0.8s;
+        font-size: 0.8rem;
     }
     
     &__intro-button {
@@ -173,6 +179,7 @@ body {
         &__intro {
             top: 0;
             clip-path: circle(0% at 50% 50%);
+            font-size: 1rem;
         }
 
         &__card-one:hover>.box__intro-one,

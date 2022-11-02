@@ -74,6 +74,8 @@ body {
   align-items: center;
   background-color: rgb(145, 155, 165);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: sans-serif;
 }
 
 .header {
@@ -138,6 +140,7 @@ body {
   transition: -webkit-clip-path 0.8s;
   transition: clip-path 0.8s;
   transition: clip-path 0.8s, -webkit-clip-path 0.8s;
+  font-size: 0.8rem;
 }
 .box__intro-button {
   display: none;
@@ -208,6 +211,7 @@ body {
     top: 0;
     -webkit-clip-path: circle(0% at 50% 50%);
             clip-path: circle(0% at 50% 50%);
+    font-size: 1rem;
   }
   .box__card-one:hover > .box__intro-one, .box__card-two:hover > .box__intro-two {
     -webkit-clip-path: circle(120% at 50% 80%);
