@@ -30,6 +30,28 @@
     margin-bottom: 0;
   }
 }
+@-webkit-keyframes backGroundArrow {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+@keyframes backGroundArrow {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
 *,
 *::before,
 *::after {
@@ -56,10 +78,10 @@ body {
 
 .header {
   position: relative;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .header__logo {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .box {
@@ -69,7 +91,7 @@ body {
   align-items: center;
   width: 100vw;
   max-width: 900px;
-  padding: 2rem;
+  padding: 0 2rem 2rem 2rem;
 }
 .box__cards {
   position: relative;
