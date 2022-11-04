@@ -186,9 +186,28 @@ body {
         border-radius: 8px;
         text-align: center;
         font-size: 2rem;
+
+        &--three, &--seven {
+            margin-bottom: 1rem;
+        }
+
+        &--five {
+            width: 300px;
+            margin-bottom: 1rem;
+        }
     }
+
+    // &__picture-label:nth-child(odd) {
+    //     bottom: 2rem;
+    // }
+
+
+
+
     &__picture-label-text {
         margin-bottom: 0;
+
+
         
     }
 
