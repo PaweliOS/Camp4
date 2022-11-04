@@ -175,6 +175,23 @@ body {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
 
     }
+
+    &__picture-label {
+        position: absolute;
+        width: 200px;
+        bottom: 1rem;
+        left: -.5rem;
+        padding: 0 1rem ;
+        background-color: $image-label;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 2rem;
+    }
+    &__picture-label-text {
+        margin-bottom: 0;
+        
+    }
+
     &__rows {
         margin-bottom: 4rem;
     }
@@ -238,6 +255,13 @@ body {
     .aboutus {
         &__row-two-text, &__row-three-text, &__row-four-text, &__row-five-text, &__row-six-text, &__row-seven-text {
             font-size: 2rem;
+        }
+
+        &__picture-label {
+
+            width: 300px;
+            left: -1rem;
+            font-size: 3rem;
         }
     }   
 }

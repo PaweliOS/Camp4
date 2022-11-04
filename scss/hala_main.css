@@ -198,6 +198,20 @@ body {
 .aboutus__picture-details {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
+.aboutus__picture-label {
+  position: absolute;
+  width: 200px;
+  bottom: 1rem;
+  left: -0.5rem;
+  padding: 0 1rem;
+  background-color: rgba(224, 239, 11, 0.8);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 2rem;
+}
+.aboutus__picture-label-text {
+  margin-bottom: 0;
+}
 .aboutus__rows {
   margin-bottom: 4rem;
 }
@@ -237,6 +251,11 @@ body {
 @media (min-width: 576px) {
   .aboutus__row-two-text, .aboutus__row-three-text, .aboutus__row-four-text, .aboutus__row-five-text, .aboutus__row-six-text, .aboutus__row-seven-text {
     font-size: 2rem;
+  }
+  .aboutus__picture-label {
+    width: 300px;
+    left: -1rem;
+    font-size: 3rem;
   }
 }
 @media (min-width: 768px) {
