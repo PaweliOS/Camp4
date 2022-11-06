@@ -226,14 +226,6 @@ body {
 .footer {
   width: 100vw;
 }
-.footer__container {
-  padding: 2rem;
-}
-.footer__box {
-  background-color: aqua;
-  text-align: center;
-  z-index: 2;
-}
 .footer__hero-img {
   background-image: url("../img/hala/footer1_640.jpg");
   background-position: center;
@@ -247,19 +239,25 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
-.footer__hero-text {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  color: white;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  z-index: 3;
+.footer__container {
+  padding: 2rem;
 }
-.footer__title-text {
-  font-size: 4rem;
+.footer__box {
+  text-align: center;
+  z-index: 2;
+}
+.footer__box-address--title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.footer__box-address--text {
+  margin-bottom: 0;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+.footer__icons-box {
+  height: 100%;
 }
 
 @media (min-width: 576px) {

@@ -107,9 +107,9 @@ body {
 .intro {
     width: 100%;
     // height: 100vh;
-    background-color: $grey-intro;
+    background-color: $greyIntro;
     padding: 6rem 1rem 10rem 1rem;
-    color: $text-intro;
+    color: $textIntro;
     &__text {
         font-size: 2rem;
         text-align: justify;
@@ -182,7 +182,7 @@ body {
         bottom: 1rem;
         left: -.5rem;
         padding: 0 1rem ;
-        background-color: $image-label;
+        background-color: $imageLabel;
         border-radius: 8px;
         text-align: center;
         font-size: 2rem;
@@ -229,17 +229,6 @@ body {
 
     width: 100vw;
     // padding: 2rem;
-    &__container {
-        // position: absolute;
-        // top: 2rem;
-        padding: 2rem;
-    }
-    &__box {
-        // height: 2rem;
-        background-color: aqua;
-        text-align: center;
-        z-index: 2;
-    }
 
     &__hero-img {
         // height: 50vh;
@@ -257,21 +246,58 @@ body {
         z-index: 1;
     }
 
-    &__hero-text {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
-        z-index: 3;
+    &__container {
+        // position: absolute;
+        // top: 2rem;
+        padding: 2rem;
+    }
+    &__box {
+        // height: 2rem;
+        // background-color: aqua;
+        text-align: center;
+        z-index: 2;
     }
 
-    &__title-text {
-        font-size: 4rem;
+    &__box-address {
+        &--title {
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: $footerTextColor;
+        }
+        &--text {
+            margin-bottom: 0;
+            color: $footerTextColor;
+            font-size: 2rem;
+        }
     }
+
+    &__icons-box {
+        // display: flex;
+        height: 100%;
+        // justify-content: center;
+        // align-items: center;
+    }
+
+
+
+
+
+
+    // &__hero-text {
+    //     position: relative;
+    //     display: flex;
+    //     flex-direction: column;
+    //     color: white;
+    //     justify-content: center;
+    //     align-items: center;
+    //     height: 100%;
+    //     width: 100%;
+    //     z-index: 3;
+    // }
+
+    // &__title-text {
+    //     font-size: 4rem;
+    // }
 
 }
 
