@@ -226,9 +226,16 @@ body {
 .footer {
   width: 100vw;
 }
+.footer__container {
+  padding: 2rem;
+}
+.footer__box {
+  background-color: aqua;
+  text-align: center;
+  z-index: 2;
+}
 .footer__hero-img {
-  height: 100vh;
-  background-image: url("../img/hala/rock-climbing_1920.jpg");
+  background-image: url("../img/hala/footer1_640.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -309,5 +316,8 @@ body {
   }
   .aboutus__row-one-text-details {
     font-size: 6rem;
+  }
+  .footer__hero-img {
+    background-image: url("../img/hala/footer1_1920.jpg");
   }
 }/*# sourceMappingURL=hala_main.css.map */
