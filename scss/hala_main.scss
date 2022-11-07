@@ -247,13 +247,9 @@ body {
     }
 
     &__container {
-        // position: absolute;
-        // top: 2rem;
-        padding: 2rem;
+        padding: 3rem;
     }
     &__box {
-        // height: 2rem;
-        // background-color: aqua;
         text-align: center;
         z-index: 2;
     }
@@ -263,41 +259,27 @@ body {
             text-decoration: underline;
             text-transform: uppercase;
             color: $footerTextColor;
+            font-size: 2rem;
         }
         &--text {
             margin-bottom: 0;
             color: $footerTextColor;
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
     }
 
-    &__icons-box {
-        // display: flex;
-        height: 100%;
-        // justify-content: center;
-        // align-items: center;
+    &__own-name {
+        font-size: 2rem;
     }
 
-
-
-
-
-
-    // &__hero-text {
-    //     position: relative;
-    //     display: flex;
-    //     flex-direction: column;
-    //     color: white;
-    //     justify-content: center;
-    //     align-items: center;
-    //     height: 100%;
-    //     width: 100%;
-    //     z-index: 3;
-    // }
-
-    // &__title-text {
-    //     font-size: 4rem;
-    // }
+    &__box-social {
+        &--title {
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: $footerTextColor;
+            font-size: 2rem;
+        }
+    }
 
 }
 
@@ -336,6 +318,29 @@ body {
             padding: 5rem 5rem 5rem 0;
         }
 
+    }
+}
+
+@media (min-width: 992px) {
+    .footer {
+        &__box-address {
+            &--title {
+                font-size: 2.2rem;
+            }
+            &--text {
+                font-size: 2rem;
+            }
+        }
+
+        &__own-name {
+            font-size: 2.4rem;
+        }
+    
+        &__box-social {
+            &--title {
+                font-size: 2.2rem;
+            }
+        }
     }
 }
 
