@@ -1,23 +1,4 @@
 @use './colors' as *;
-@use './animations' as *;
-
-@mixin arrowDown {
-    position: absolute;
-    display: flex;
-    width: 50px;
-    height: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    
-    background-color: transparent;
-    border: 2px solid orange;
-    border-radius: 50%;
-    transition: .3s background-color;
-    font-size: 6rem;
-    cursor: pointer;
-    z-index: 4;
-    animation: backGroundArrow 4s ease-in-out infinite;
-}
 
 *,
 *::before,
@@ -49,9 +30,9 @@ body {
     &__hero-img {
         // position: relative;
         // width: 100%;
-        height: 100vh;
+        height: 40vh;
         // background-color: #f9aa49;
-        background-image: url('../img/hala/rock-climbing_1920.jpg');
+        background-image: url('../img/cennik/backgroundHeader_640.jpg');
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -65,157 +46,28 @@ body {
         z-index: 1;
     }
 
-    &__hero-text {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        color: white;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        width: 100%;
+    &__hero-label {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        padding: .5rem 6rem;
+        border-radius: 8px;
+        background-color: $imageLabelOrange;
         z-index: 3;
     }
+
+    &__hero-label-title {
+        color: $textLabel;
+        font-size: 3rem;
+    }
+
+
 
     &__title-text {
         font-size: 4rem;
     }
 
-    &__arrow-down {
-        @include arrowDown();
-        bottom: 50px;
-    }
-
-    &__arrow-down:hover {
-        background-color: $orange;
-    }
     
-
-
-
-    
-}
-
-
-.intro {
-    width: 100%;
-    // height: 100vh;
-    background-color: $greyIntro;
-    padding: 6rem 1rem 10rem 1rem;
-    color: $textIntro;
-    &__text {
-        font-size: 2rem;
-        text-align: justify;
-    }
-
-    &__text:nth-child(1) {
-        padding: 1rem 4rem 0 0;
-    }
-
-    &__text:nth-child(2) {
-        padding: 1rem 1rem 1rem 4rem;
-    }
-    &__text:nth-child(3) {
-        text-align: center;
-    }
-    &__text:nth-child(3) {
-        text-align: center;
-    }
-    &__text:nth-child(5) {
-        text-align: center;
-        margin-top: 3rem;
-    }
-
-    &__arrow {
-        position: relative;
-    }
-    &__arrow-down {
-        @include arrowDown();
-        margin-top: 20px;
-    }
-    &__arrow-down:hover {
-        background-color: $orange;
-    }
-
-}
-
-
-.aboutus {
-    position: relative;
-    width: 100%;
-    // height: 100vh;
-    padding: 6rem 1rem 1rem;
-
-
-
-    &__image-one {
-        width: 40%;
-    }
-
-    &__row-one, &__row-two, &__row-three, &__row-four, &__row-five, &__row-six, &__row-seven {
-        font-size: 1.6rem;
-        // margin-bottom: 4rem;
-        text-align: justify;
-    }
-
-
-
-    &__row-one-text-details {
-        font-size: 4rem;
-    }
-
-    &__picture-details {
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
-
-    }
-
-    &__picture-label {
-        position: absolute;
-        width: 200px;
-        bottom: 1rem;
-        left: -.5rem;
-        padding: 0 1rem ;
-        background-color: $imageLabel;
-        border-radius: 8px;
-        text-align: center;
-        font-size: 2rem;
-
-        &--three, &--seven {
-            margin-bottom: 1rem;
-        }
-
-        &--five {
-            width: 300px;
-            margin-bottom: 1rem;
-        }
-    }
-
-    // &__picture-label:nth-child(odd) {
-    //     bottom: 2rem;
-    // }
-
-
-
-
-    &__picture-label-text {
-        margin-bottom: 0;
-
-
-        
-    }
-
-    &__rows {
-        margin-bottom: 4rem;
-    }
-   
-
-
-    // [class*='picture'] {
-    //     border: 10px solid orange;
-    // }
-
-    
-
 }
 
 .footer {
