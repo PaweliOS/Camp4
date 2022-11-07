@@ -1,0 +1,342 @@
+@-webkit-keyframes moveToRight {
+  from {
+    margin-left: -200%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+@keyframes moveToRight {
+  from {
+    margin-left: -200%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+@-webkit-keyframes moveToUp {
+  from {
+    margin-bottom: -200%;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}
+@keyframes moveToUp {
+  from {
+    margin-bottom: -200%;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}
+@-webkit-keyframes backGroundArrow {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+@keyframes backGroundArrow {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: rgb(145, 155, 165);
+  padding-bottom: 8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  width: 100vw;
+}
+.header__hero-img {
+  height: 100vh;
+  background-image: url("../img/hala/rock-climbing_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.header__hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.header__hero-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+.header__title-text {
+  font-size: 4rem;
+}
+.header__arrow-down {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border: 2px solid orange;
+  border-radius: 50%;
+  transition: 0.3s background-color;
+  font-size: 6rem;
+  cursor: pointer;
+  z-index: 4;
+  -webkit-animation: backGroundArrow 4s ease-in-out infinite;
+          animation: backGroundArrow 4s ease-in-out infinite;
+  bottom: 50px;
+}
+.header__arrow-down:hover {
+  background-color: rgb(254, 117, 5);
+}
+
+.intro {
+  width: 100%;
+  background-color: rgb(46, 46, 45);
+  padding: 6rem 1rem 10rem 1rem;
+  color: rgb(255, 255, 255);
+}
+.intro__text {
+  font-size: 2rem;
+  text-align: justify;
+}
+.intro__text:nth-child(1) {
+  padding: 1rem 4rem 0 0;
+}
+.intro__text:nth-child(2) {
+  padding: 1rem 1rem 1rem 4rem;
+}
+.intro__text:nth-child(3) {
+  text-align: center;
+}
+.intro__text:nth-child(3) {
+  text-align: center;
+}
+.intro__text:nth-child(5) {
+  text-align: center;
+  margin-top: 3rem;
+}
+.intro__arrow {
+  position: relative;
+}
+.intro__arrow-down {
+  position: absolute;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border: 2px solid orange;
+  border-radius: 50%;
+  transition: 0.3s background-color;
+  font-size: 6rem;
+  cursor: pointer;
+  z-index: 4;
+  -webkit-animation: backGroundArrow 4s ease-in-out infinite;
+          animation: backGroundArrow 4s ease-in-out infinite;
+  margin-top: 20px;
+}
+.intro__arrow-down:hover {
+  background-color: rgb(254, 117, 5);
+}
+
+.aboutus {
+  position: relative;
+  width: 100%;
+  padding: 6rem 1rem 1rem;
+}
+.aboutus__image-one {
+  width: 40%;
+}
+.aboutus__row-one, .aboutus__row-two, .aboutus__row-three, .aboutus__row-four, .aboutus__row-five, .aboutus__row-six, .aboutus__row-seven {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+.aboutus__row-one-text-details {
+  font-size: 4rem;
+}
+.aboutus__picture-details {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+.aboutus__picture-label {
+  position: absolute;
+  width: 200px;
+  bottom: 1rem;
+  left: -0.5rem;
+  padding: 0 1rem;
+  background-color: rgba(224, 239, 11, 0.8);
+  border-radius: 8px;
+  text-align: center;
+  font-size: 2rem;
+}
+.aboutus__picture-label--three, .aboutus__picture-label--seven {
+  margin-bottom: 1rem;
+}
+.aboutus__picture-label--five {
+  width: 300px;
+  margin-bottom: 1rem;
+}
+.aboutus__picture-label-text {
+  margin-bottom: 0;
+}
+.aboutus__rows {
+  margin-bottom: 4rem;
+}
+
+.footer {
+  width: 100vw;
+}
+.footer__hero-img {
+  background-image: url("../img/hala/footer1_640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.footer__hero-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.footer__container {
+  padding: 3rem;
+}
+.footer__box {
+  text-align: center;
+  z-index: 2;
+}
+.footer__box-address--title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+.footer__box-address--text {
+  margin-bottom: 0;
+  color: rgb(255, 255, 255);
+  font-size: 1.6rem;
+}
+.footer__own-name {
+  font-size: 2rem;
+}
+.footer__box-social--title {
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+@media (min-width: 576px) {
+  .aboutus__row-two-text, .aboutus__row-three-text, .aboutus__row-four-text, .aboutus__row-five-text, .aboutus__row-six-text, .aboutus__row-seven-text {
+    font-size: 2rem;
+  }
+  .aboutus__picture-label {
+    width: 300px;
+    left: -1rem;
+    font-size: 3rem;
+  }
+  .aboutus__picture-label--five {
+    width: 400px;
+  }
+}
+@media (min-width: 768px) {
+  .intro {
+    padding: 1rem 6rem 10rem;
+  }
+  .intro__text:nth-child(1) {
+    padding: 1rem 0 1rem 5rem;
+  }
+  .intro__text:nth-child(2) {
+    padding: 5rem 5rem 5rem 0;
+  }
+}
+@media (min-width: 992px) {
+  .footer__box-address--title {
+    font-size: 2.2rem;
+  }
+  .footer__box-address--text {
+    font-size: 2rem;
+  }
+  .footer__own-name {
+    font-size: 2.4rem;
+  }
+  .footer__box-social--title {
+    font-size: 2.2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .header__arrow-down {
+    width: 90px;
+    height: 90px;
+  }
+  .header__title-text {
+    font-size: 6rem;
+  }
+  .intro {
+    padding: 10rem 15rem 15rem 15rem;
+  }
+  .intro__text:nth-child(1) {
+    padding: 1rem 0 1rem 10rem;
+  }
+  .intro__text:nth-child(2) {
+    padding: 10rem 10rem 10rem 0;
+  }
+  .intro__arrow-down {
+    width: 90px;
+    height: 90px;
+  }
+  .aboutus {
+    padding: 10rem 15rem 5rem 15rem;
+  }
+  .aboutus__rows {
+    margin-bottom: 8rem;
+    font-size: 7rem;
+  }
+  .aboutus__row-one-text-details {
+    font-size: 6rem;
+  }
+  .footer__hero-img {
+    background-image: url("../img/hala/footer1_1920.jpg");
+  }
+}/*# sourceMappingURL=cennik_main.css.map */
