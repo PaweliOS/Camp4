@@ -99,12 +99,25 @@ body {
     }
 
     &__star-box {
-        position: relative
+        position: relative;
         padding: 1rem;
         border-radius: 8px;
         // background-color: $orange;
     }
 }
+
+.passes {
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__boxes {
+        background-color: red;
+        height: 100px;
+        border: 1px solid black;
+    }
+}
+
 
 
 
@@ -184,18 +197,7 @@ body {
 }
 
 @media (min-width: 768px) {
-    .intro {
-        padding: 1rem 6rem 10rem;
 
-        &__text:nth-child(1) {
-            padding: 1rem 0 1rem 5rem;
-        }
-
-        &__text:nth-child(2) {
-            padding: 5rem 5rem 5rem 0;
-        }
-
-    }
 }
 
 @media (min-width: 992px) {
@@ -230,38 +232,6 @@ body {
         &__title-text {
             font-size: 6rem;
         }
-    }
-
-    .intro {
-        padding: 10rem 15rem 15rem 15rem;
-
-        &__text:nth-child(1) {
-            padding: 1rem 0 1rem 10rem;
-        }
-
-        &__text:nth-child(2) {
-            padding: 10rem 10rem 10rem 0;
-        }
-
-        &__arrow-down {
-            width: 90px;
-            height: 90px;
-        }
-    }
-
-    .aboutus {
-        padding: 10rem 15rem 5rem 15rem;
-
-        &__rows {
-            margin-bottom: 8rem;
-            font-size: 7rem;
-        }
-
-        &__row-one-text-details {
-            font-size: 6rem;
-         
-        }
-
     }
 
     .footer {
