@@ -136,6 +136,9 @@ body {
   font-size: 1.6rem;
 }
 
+.rental {
+  padding: 10rem 0 12rem;
+}
 .rental__title {
   text-align: center;
   text-transform: uppercase;
@@ -159,14 +162,13 @@ body {
 .school__hero-img {
   position: relative;
   width: 100%;
-  height: 60vh;
   background-image: url("../img/cennik/camp4SchoolsInstructors.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
 .school__hero-shadow {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 100%;
   text-align: center;
@@ -180,8 +182,44 @@ body {
   text-transform: uppercase;
   font-size: 2.8rem;
   color: white;
-  margin: 5rem 0 10rem;
+  margin: 10rem 0 15rem;
   background-color: rgba(0, 0, 0, 0.6);
+}
+.school__box {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 8rem 0;
+  margin-top: 2rem;
+}
+.school__cards {
+  width: 220px;
+  height: 320px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 4px solid rgb(254, 117, 5);
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.school__cards-title {
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+.school__cards-image {
+  width: 95%;
+}
+.school__cards-text-one {
+  font-size: 3rem;
+  color: rgb(254, 117, 5);
+  text-transform: capitalize;
+}
+.school__cards-text-two {
+  font-size: 2.6rem;
+}
+.school__cards-text-three {
+  font-size: 1.6rem;
 }
 
 .footer {
