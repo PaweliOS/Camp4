@@ -137,7 +137,7 @@ body {
 }
 
 .rental {
-  padding: 10rem 0 12rem;
+  padding: 2rem 0 4rem;
 }
 .rental__title {
   text-align: center;
@@ -178,12 +178,12 @@ body {
 .school__title {
   display: inline-block;
   padding: 1rem;
+  margin: 2rem 0 0;
   border-radius: 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
   font-size: 2.8rem;
-  color: white;
-  margin: 10rem 0 15rem;
-  background-color: rgba(0, 0, 0, 0.6);
 }
 .school__box {
   position: relative;
@@ -289,6 +289,13 @@ body {
   }
   .passes__boxes {
     font-size: 2rem;
+  }
+  .rental {
+    padding: 10rem 0 12rem;
+  }
+  .school__title {
+    margin: 10rem 0 15rem;
+    font-size: 2.8rem;
   }
 }
 @media (min-width: 768px) {
