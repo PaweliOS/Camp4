@@ -25,6 +25,12 @@ body {
 
 }
 
+// .container-fluid {
+//     background-color: rgb(211, 210, 209);
+//     background-color: white;
+    
+// }
+
 .header {
     width: 100vw;
     &__hero-img {
@@ -71,7 +77,7 @@ body {
 }
 
 .price-sections:nth-child(odd) {
-    background-color: $cenSOdd;
+    background-color: $cenSOdd
 }
 .price-sections:nth-child(even) {
     background-color: $cenSEven;
@@ -93,14 +99,6 @@ body {
         &--row-zero {
             background-color: $orange;
         }
-        // &--row-one {
-        // }
-        // &--row-two {
-        //     border-bottom: 1px solid $orange;
-        //  }
-        // &--row-three {
-        //     border-bottom: 1px solid $orange;
-        // }
     }
 
     &__star-box {
