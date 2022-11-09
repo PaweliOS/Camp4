@@ -38,7 +38,7 @@ body {
         width: 100%;
         height: 40vh;
         // background-color: #f9aa49;
-        background-image: url('../img/cennik/backgroundHeader_640.jpg');
+        background-image: url('../img/cennik/Handle1_640.jpg');
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -72,7 +72,7 @@ body {
 .price-sections {
     width: 100%;
     // height: 450px;
-    padding: 2rem 0;
+    padding: 4rem 0;
     // background-color: $orange;
 }
 
@@ -96,9 +96,14 @@ body {
 
     &__table {
         border-color: $orange;
+        background-color: white;
         &--row-zero {
             background-color: $orange;
         }
+
+        // &--row-one {
+        //     background-color: white
+        // }
     }
 
     &__star-box {
@@ -112,7 +117,8 @@ body {
 
 .passes {
     width: 100%;
-    padding: 3rem 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: center;
 
     &__title {
@@ -164,6 +170,25 @@ body {
     }
 }
 
+.rental {
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+    }
+
+    &__table {
+        font-size: 1.3rem;
+    }
+
+    &__table {
+        border-color: $orange;
+        background-color: white;
+        &--row-zero {
+            background-color: $orange;
+        }
+    }
+}
 
 
 
@@ -240,7 +265,7 @@ body {
         }
     } 
     
-    .entrance {
+    .entrance, .rental {
         &__title {
             font-size: 2.6rem;
         }
@@ -251,11 +276,12 @@ body {
     }
 
     .passes {
-        padding: 3rem 10rem;
-
+        padding-left: 10rem;
+        padding-right: 10rem;
+        overflow: hidden;
         
         &__title {
-            font-size: 2.6rem;
+            font-size: 2.8rem;
         }
     
         &__boxes {
@@ -269,8 +295,13 @@ body {
 }
 
 @media (min-width: 768px) {
-
+    .header {
+        &__hero-img {
+            background-image: url('../img/cennik/Handle1_1280.jpg');
+        }
+    }
 }
+
 
 @media (min-width: 992px) {
     .footer {

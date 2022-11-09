@@ -29,7 +29,7 @@ body {
   position: relative;
   width: 100%;
   height: 40vh;
-  background-image: url("../img/cennik/backgroundHeader_640.jpg");
+  background-image: url("../img/cennik/Handle1_640.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -57,11 +57,11 @@ body {
 
 .price-sections {
   width: 100%;
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 .price-sections:nth-child(odd) {
-  background-color: rgb(240, 238, 238);
+  background-color: rgb(255, 255, 255);
 }
 
 .price-sections:nth-child(even) {
@@ -78,6 +78,7 @@ body {
 }
 .entrance__table {
   border-color: rgb(254, 117, 5);
+  background-color: white;
 }
 .entrance__table--row-zero {
   background-color: rgb(254, 117, 5);
@@ -91,7 +92,8 @@ body {
 
 .passes {
   width: 100%;
-  padding: 3rem 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: center;
 }
 .passes__title {
@@ -132,6 +134,22 @@ body {
 }
 .passes__cards-text-three {
   font-size: 1.6rem;
+}
+
+.rental__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+.rental__table {
+  font-size: 1.3rem;
+}
+.rental__table {
+  border-color: rgb(254, 117, 5);
+  background-color: white;
+}
+.rental__table--row-zero {
+  background-color: rgb(254, 117, 5);
 }
 
 .footer {
@@ -185,20 +203,27 @@ body {
   .header__hero-label-title {
     font-size: 3rem;
   }
-  .entrance__title {
+  .entrance__title, .rental__title {
     font-size: 2.6rem;
   }
-  .entrance__table {
+  .entrance__table, .rental__table {
     font-size: 2rem;
   }
   .passes {
-    padding: 3rem 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    overflow: hidden;
   }
   .passes__title {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
   }
   .passes__boxes {
     font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .header__hero-img {
+    background-image: url("../img/cennik/Handle1_1280.jpg");
   }
 }
 @media (min-width: 992px) {
