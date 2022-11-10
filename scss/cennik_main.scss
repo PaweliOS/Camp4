@@ -222,7 +222,7 @@ body {
         color: $schoolSectionTitleColor;
         background-color: rgba(0, 0, 0, .6); 
         text-transform: uppercase;
-        font-size: 2.8rem;
+        font-size: 2.2rem;
     }
 
     &__box {
@@ -269,7 +269,64 @@ body {
     &__cards-text-three {
         font-size: 1.6rem;
     }
+}
 
+.lessons {
+    padding: 4rem 1rem;
+
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2.2;
+        margin-bottom: 2rem;
+    }
+
+    &__box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // margin-left: 10rem;
+        // margin-left: 1rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        // height: 100px;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        // background-color: red;
+        border: 4px solid $orange;
+        border-radius: 8px;
+        background-color: $cenPasses;
+        box-shadow: 10px 10px 20px $cardsShadow;
+    }
+
+
+
+    &__cards-logo {
+        width: 100px;
+    }
+
+    &__cards-title {
+        color: $orange;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+
+    &__cards-text {
+        font-size: 1.6rem;
+    }
+    &__cards-text-one, &__cards-text-two {
+        margin-bottom: 0;
+        
+        
+    }
 
 }
 
@@ -384,12 +441,26 @@ body {
         }
     }
 
+    .lessons {
+        &__title {
+            font-size: 2.8;
+        }
+    }
+
 }
 
 @media (min-width: 768px) {
     .header {
         &__hero-img {
             background-image: url('../img/cennik/Handle1_1280.jpg');
+        }
+    }
+
+    .lessons {
+        &__cards {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
         }
     }
 }
