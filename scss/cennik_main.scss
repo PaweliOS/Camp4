@@ -324,22 +324,25 @@ body {
     }
     &__cards-text-one, &__cards-text-two {
         margin-bottom: 0;
-        
-        
     }
+}
 
+.others {
+    &__box {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        text-align: center;
+    }
+    &__text {
+        font-size: 1.8rem;
+    }
 }
 
 
-
-
 .footer {
-
     width: 100vw;
-    // padding: 2rem;
-
     &__hero-img {
-        // height: 50vh;
         background-image: url('../img/hala/footer1_640.jpg');
         background-position: center;
         background-size: cover;
@@ -388,7 +391,6 @@ body {
             font-size: 2rem;
         }
     }
-
 }
 
 // mediaqueries

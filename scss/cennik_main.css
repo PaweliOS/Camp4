@@ -266,6 +266,15 @@ body {
   margin-bottom: 0;
 }
 
+.others__box {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+.others__text {
+  font-size: 1.8rem;
+}
+
 .footer {
   width: 100vw;
 }
