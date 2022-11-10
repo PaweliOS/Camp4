@@ -245,7 +245,7 @@ body {
   width: 100%;
   padding: 1rem;
   margin-bottom: 2rem;
-  border: 4px solid rgb(254, 117, 5);
+  border: 2px solid rgb(254, 117, 5);
   border-radius: 8px;
   background-color: white;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -265,6 +265,9 @@ body {
 .lessons__cards-text-one, .lessons__cards-text-two {
   margin-bottom: 0;
 }
+.lessons__cards-text-two {
+  font-weight: bold;
+}
 
 .others__box {
   padding-left: 1rem;
@@ -273,6 +276,10 @@ body {
 }
 .others__text {
   font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.others__text--sign-four {
+  color: rgb(254, 117, 5);
 }
 
 .footer {
@@ -352,6 +359,9 @@ body {
   }
   .lessons__title {
     font-size: 2.8;
+  }
+  .lessons__cards {
+    border: 4px solid rgb(254, 117, 5);
   }
 }
 @media (min-width: 768px) {
