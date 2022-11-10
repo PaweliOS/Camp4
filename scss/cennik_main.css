@@ -257,6 +257,7 @@ body {
 
 .lessons {
   padding: 4rem 1rem;
+  overflow: hidden;
 }
 .lessons__title {
   text-align: center;
