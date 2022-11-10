@@ -31,6 +31,7 @@ body {
     
 // }
 
+
 .header {
     width: 100vw;
     &__hero-img {
@@ -244,6 +245,7 @@ body {
         border-radius: 8px;
         background-color: $cenPasses;
         box-shadow: 10px 10px 20px $cardsShadow;
+        overflow: hidden;
     }
 
     &__cards-title {
@@ -266,6 +268,33 @@ body {
     }
     &__cards-text-three {
         font-size: 1.6rem;
+    }
+    &__cards-btns {
+        color: white;
+        padding: .3rem 1rem;
+        background-color:rgb(25, 135, 84);
+        border: 1px solid rgb(25, 135, 84);
+        border-radius: 3px;
+        font-size: 1.6rem;
+    }
+
+    &__cards-text-hint-two {
+        // display: none;
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        bottom: 80px;
+        line-height: 40px;
+        left: -100%;
+        border: 1px solid $cardsHintFrame;
+        color: $cardsHintFontColor;
+        background-color: $cardsHint;
+        transition: left .5s linear ;
+        font-size: 1rem;
+
+        &--left-active {
+            left: 0;
+        }
     }
 }
 
@@ -322,6 +351,8 @@ body {
         font-weight: bold;
     }
 
+
+
 }
 
 .others {
@@ -373,7 +404,7 @@ body {
             color: $footerTextColor;
             font-size: 2rem;
         }
-        &--text, {
+        &--text {
             margin-bottom: 0;
             color: $footerTextColor;
             font-size: 1.6rem;
