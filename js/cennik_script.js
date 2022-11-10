@@ -1,11 +1,16 @@
-const schoolBtnTwo = document.querySelector('.school__cards-btn-two');
-const schoolHintTwo = document.querySelector('.school__cards-text-hint-two');
+const schoolCardsBtns = document.querySelectorAll('.school__cards-btns')
 
+const setListenerForButtons = () => {
+    schoolCardsBtns.forEach((btn) => {
+        btn.addEventListener('click', toggleHint)
+    }
+)}
 
-function toggleHint() {
-    schoolHintTwo.classList.toggle('school__cards-text-hint-two--left-active')
+function toggleHint(e) {
+    console.log(e);
+
+    let hint = e.target.nextElementSibling
+    hint.classList.toggle('school__cards-text-hint-two--left-active')
 }
 
-schoolBtnTwo.addEventListener('click', toggleHint);
-
-// schoolBtnTwo.addEventListener('click', console.log('wyw funkcji'));
+document.addEventListener('DOMContentLoaded', setListenerForButtons)

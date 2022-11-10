@@ -232,7 +232,9 @@ body {
         justify-content: space-around;
         flex-wrap: wrap;
         padding: 8rem 0;
-        margin-top: 2rem;
+        margin: 2rem auto;
+        
+        max-width: 1200px;
 
     }
 
@@ -275,10 +277,14 @@ body {
         background-color:rgb(25, 135, 84);
         border: 1px solid rgb(25, 135, 84);
         border-radius: 3px;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
-    &__cards-text-hint-two {
+    &__cards-btns:hover {
+        background-color: $cardsButtonsColorHover;
+    }
+
+    &__cards-text-hint {
         // display: none;
         position: absolute;
         width: 100%;
@@ -291,11 +297,18 @@ body {
         background-color: $cardsHint;
         transition: left .5s linear ;
         font-size: 1rem;
+    }
 
+    &__cards-text-hint-two, &__cards-text-hint-one, &__cards-text-hint-three, &__cards-text-hint-four {
         &--left-active {
             left: 0;
         }
     }
+    &__cards-text-hint-three {
+        height: 45px;
+        line-height: 20px;
+    }
+    
 }
 
 .lessons {
@@ -321,6 +334,7 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%;
+        max-width: 1000px;
         padding: 1rem;
         margin-bottom: 2rem;
         border: 2px solid $orange;
@@ -350,7 +364,11 @@ body {
     &__cards-text-two {
         font-weight: bold;
     }
-
+    &__caution {
+        width: 100%;
+        max-width: 1000px;
+        // align-self: flex-start;
+    }
 
 
 }
@@ -473,6 +491,12 @@ body {
             margin: 10rem 0 15rem;
             font-size: 2.8rem;
         }
+
+        &__cards-text-hint {
+            height: 60px;
+            line-height: 30px;
+            font-size: 1.5rem;
+        }
     }
 
     .lessons {
@@ -524,6 +548,10 @@ body {
                 font-size: 2.2rem;
             }
         }
+    }
+
+    .lessons {
+        padding: 4rem 15rem;
     }
 }
 

@@ -191,7 +191,8 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 8rem 0;
-  margin-top: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
 }
 .school__cards {
   width: 220px;
@@ -228,9 +229,12 @@ body {
   background-color: rgb(25, 135, 84);
   border: 1px solid rgb(25, 135, 84);
   border-radius: 3px;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
-.school__cards-text-hint-two {
+.school__cards-btns:hover {
+  background-color: rgb(2, 102, 2);
+}
+.school__cards-text-hint {
   position: absolute;
   width: 100%;
   height: 40px;
@@ -243,8 +247,12 @@ body {
   transition: left 0.5s linear;
   font-size: 1rem;
 }
-.school__cards-text-hint-two--left-active {
+.school__cards-text-hint-two--left-active, .school__cards-text-hint-one--left-active, .school__cards-text-hint-three--left-active, .school__cards-text-hint-four--left-active {
   left: 0;
+}
+.school__cards-text-hint-three {
+  height: 45px;
+  line-height: 20px;
 }
 
 .lessons {
@@ -268,6 +276,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 1000px;
   padding: 1rem;
   margin-bottom: 2rem;
   border: 2px solid rgb(254, 117, 5);
@@ -292,6 +301,10 @@ body {
 }
 .lessons__cards-text-two {
   font-weight: bold;
+}
+.lessons__caution {
+  width: 100%;
+  max-width: 1000px;
 }
 
 .others__box {
@@ -382,6 +395,11 @@ body {
     margin: 10rem 0 15rem;
     font-size: 2.8rem;
   }
+  .school__cards-text-hint {
+    height: 60px;
+    line-height: 30px;
+    font-size: 1.5rem;
+  }
   .lessons__title {
     font-size: 2.8;
   }
@@ -411,6 +429,9 @@ body {
   }
   .footer__box-social--title {
     font-size: 2.2rem;
+  }
+  .lessons {
+    padding: 4rem 15rem;
   }
 }
 @media (min-width: 1200px) {
