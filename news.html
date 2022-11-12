@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp4 - aktualności</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/news_main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand text-capitalize fs-1" href="#">camp<span class="text-warning">4</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-2 me-4 text-dark" href="#aboutus" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="text-capitalize">o</span> nas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#aboutus">ściana wys. 10m.</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">boulder - wys. 4m.</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">siłownia</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">outdoor boulder</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">funwall</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">ferrata</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">boiska sportowe</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-2 me-4 text-capitalize" aria-current="page"
+                            href="#">aktualności</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-2 me-4 text-capitalize text-dark" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            oferta
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">pierwsza wizyta</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">prezent - voucher na zajęcia</a>
+                            </li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">urodziny dla dzieci</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">urodziny dla młodzieży</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">urodziny dla młodzieży</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">wejścia indywidualne</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">kawiarnia</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-2 me-4 text-capitalize text-dark" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            szkoła wspinania Camp4
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">sekcje dorośli</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">sekcje dzieci</a></li>
+                            <!-- <li><hr class="dropdown-divider"></li> -->
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">sekcje rodzina</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">kursy ściankowe</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">młodzieżowa grupa rozwoju
+                                    osobistego</a></li>
+                            <li><a class="dropdown-item text-capitalize fs-4" href="#">obóz wspinaczkowy (Jura)</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-2 me-4 text-capitalize" aria-current="page"
+                            href="cennik.html">cennik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-2 me-4 text-capitalize" aria-current="page" href="#">kontakt</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li> -->
+                    <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fs-2 me-4 text-capitalize text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+                </ul>
+                <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="header__hero-img position-relative w-100">
+            <div class="header__hero-shadow"></div>
+            <div class="header__hero-label" data-aos="fade-right">
+                <h1 class="header__hero-label-title">cennik</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="footer__hero-img position-relative w-100">
+            <div class="footer__hero-shadow"></div>
+            <div class="container footer__container">
+                <div class="row footer__row-one mb-5">
+                    <div class="footer__box footer__box-address col-12 col-md-4 mb-5">
+                        <p class="footer__box-address--title">gdzie jesteśmy</p>
+                        <p class="footer__box-address--text footer__own-name">Camp4</p>
+                        <p class="footer__box-address--text">ul. Krasnowolska 50</p>
+                        <p class="footer__box-address--text">02-849 Warszawa</p>
+                    </div>
+                    <div class="footer__box footer__box-social-media col-12 col-md-4 mb-5">
+                        <p class="footer__box-social--title">social media</p>
+                        <div class="footer__icons-box">
+                            <a class="footer__icon footer__icon--one" href="https://www.facebook.com/halawspinaczkowa"
+                                type="button"><img class="footer__icon-img" src="./img/icons/facebook.svg" alt="">
+                            </a>
+                            <a class="footer__icon footer__icon--two mx-2"
+                                href="https://www.instagram.com/camp4_halawspinaczkowa/" type="button"><img
+                                    class="footer__icon-img" src="./img/icons/instagram.svg" alt="">
+                            </a>
+                            <a class="footer__icon footer__icon--three mx-2 disabled" href="#" type="button"><img
+                                    class="footer__icon-img" src="./img/icons/twitter.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__box  col-12 col-md-4">
+                        <p class="footer__box-address--title">Jesteśmy otwarci</p>
+                        <p class="footer__box-address--text">pn-cz: 8.00 - 23.00</p>
+                        <p class="footer__box-address--text">pt: 8.00 - 22.30</p>
+                        <p class="footer__box-address--text">sob-nd: 9.00 - 21.30</p>
+                        <p class="footer__box-address--text"><img src="./img/icons/phone.svg" alt=""> +48 22 847 11 76
+                        </p>
+                    </div>
+                </div>
+                <div class="row footer__row-two fs-2 border-top mt-1">
+                    <p class="col-12 text-center text-light">Mapa strony</p>
+                    <div class="footer__box-site-map col-12">
+                        <p class="text-light">przykładowy tekst</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            // offset: 200,
+            // delay:50,
+            duration: 1000,
+            once: false
+        });
+    </script>
+</body>
+
+</html>
