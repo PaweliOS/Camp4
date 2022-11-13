@@ -71,18 +71,16 @@ body {
     }
 
     &__box-column {
-        width: 355px;
+        width: 350px;
         text-align: center;
         margin: .5rem auto .5rem;
         border-radius: 8px;
-        // overflow: hidden;
     }
 }
 
 .fb-post {
     width: 350px;
     margin-bottom: 2rem;
-    // border: 2px solid $orange;
     border-radius: 4px;
     box-shadow: 10px 10px 20px $cardsShadow;
     transition: .3s linear;
