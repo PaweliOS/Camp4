@@ -25,13 +25,6 @@ body {
 
 }
 
-// .container-fluid {
-//     background-color: rgb(211, 210, 209);
-//     background-color: white;
-    
-// }
-
-
 .header {
     width: 100vw;
     &__hero-img {
@@ -71,9 +64,7 @@ body {
 
 .price-sections {
     width: 100%;
-    // height: 450px;
     padding: 4rem 0;
-    // background-color: $orange;
 }
 
 .price-sections:nth-child(odd) {
@@ -100,10 +91,6 @@ body {
         &--row-zero {
             background-color: $orange;
         }
-
-        // &--row-one {
-        //     background-color: white
-        // }
     }
 
     &__star-box {
@@ -111,7 +98,6 @@ body {
         padding: 1rem;
         border-radius: 8px;
         font-size: 1.3rem;
-        // background-color: $orange;
     }
 }
 
@@ -131,7 +117,6 @@ body {
         justify-content: space-around;
         flex-wrap: wrap;
         margin-top: 2rem;
-
     }
 
     &__cards {
@@ -139,13 +124,11 @@ body {
         height: 300px;
         padding: 1rem;
         margin-bottom: 2rem;
-        // background-color: red;
         border: 4px solid $orange;
         border-radius: 8px;
         background-color: $cenPasses;
         box-shadow: 10px 10px 20px $cardsShadow;
         overflow: hidden;
-        // transform: rotate(3deg);
     }
 
     &__cards-title {
@@ -231,9 +214,7 @@ body {
         flex-wrap: wrap;
         padding: 8rem 0;
         margin: 0 auto;
-        
         max-width: 1200px;
-
     }
 
     &__cards {
@@ -283,7 +264,6 @@ body {
     }
 
     &__cards-text-hint {
-        // display: none;
         position: absolute;
         width: 100%;
         height: 40px;
@@ -350,7 +330,6 @@ body {
         text-transform: uppercase;
         margin-bottom: 0;
         font-size: 2rem;
-        // font-weight: bold;
     }
 
     &__cards-text {
@@ -365,10 +344,7 @@ body {
     &__caution {
         width: 100%;
         max-width: 1000px;
-        // align-self: flex-start;
     }
-
-
 }
 
 .others {
@@ -385,7 +361,6 @@ body {
             color: $orange;
         }
     }
-
 }
 
 .footer {
@@ -529,7 +504,6 @@ body {
     }
 }
 
-
 @media (min-width: 992px) {
     .footer {
         &__box-address {
@@ -573,6 +547,5 @@ body {
             background-image: url('../img/hala/footer1_1920.jpg');
         }
     }
-
 }
 

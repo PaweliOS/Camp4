@@ -33,8 +33,6 @@ html {
 }
 
 body {
-    // display: flex;
-    // flex-direction: column;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     width: 100vw;
     height: 100vh;
@@ -49,10 +47,7 @@ body {
 .header {
     width: 100vw;
     &__hero-img {
-        // position: relative;
-        // width: 100%;
         height: 100vh;
-        // background-color: #f9aa49;
         background-image: url('../img/hala/rock-climbing_1920.jpg');
         background-position: center;
         background-size: cover;
@@ -91,17 +86,10 @@ body {
     &__arrow-down:hover {
         background-color: $orange;
     }
-    
-
-
-
-    
 }
-
 
 .intro {
     width: 100%;
-    // height: 100vh;
     background-color: $greyIntro;
     padding: 6rem 1rem 10rem 1rem;
     color: $textIntro;
@@ -138,17 +126,12 @@ body {
     &__arrow-down:hover {
         background-color: $orange;
     }
-
 }
-
 
 .aboutus {
     position: relative;
     width: 100%;
-    // height: 100vh;
     padding: 6rem 1rem 1rem;
-
-
 
     &__image-one {
         width: 40%;
@@ -156,11 +139,8 @@ body {
 
     &__row-one, &__row-two, &__row-three, &__row-four, &__row-five, &__row-six, &__row-seven {
         font-size: 1.6rem;
-        // margin-bottom: 4rem;
         text-align: justify;
     }
-
-
 
     &__row-one-text-details {
         font-size: 4rem;
@@ -168,7 +148,6 @@ body {
 
     &__picture-details {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, .7);
-
     }
 
     &__picture-label {
@@ -192,41 +171,19 @@ body {
         }
     }
 
-    // &__picture-label:nth-child(odd) {
-    //     bottom: 2rem;
-    // }
-
-
-
-
     &__picture-label-text {
         margin-bottom: 0;
-
-
-        
     }
 
     &__rows {
         margin-bottom: 4rem;
     }
-   
-
-
-    // [class*='picture'] {
-    //     border: 10px solid orange;
-    // }
-
-    
-
 }
 
 .footer {
-
     width: 100vw;
-    // padding: 2rem;
 
     &__hero-img {
-        // height: 50vh;
         background-image: url('../img/hala/footer1_640.jpg');
         background-position: center;
         background-size: cover;
@@ -275,7 +232,6 @@ body {
             font-size: 2rem;
         }
     }
-
 }
 
 // mediaqueries
@@ -312,7 +268,6 @@ body {
         &__text:nth-child(2) {
             padding: 5rem 5rem 5rem 0;
         }
-
     }
 }
 
@@ -377,9 +332,7 @@ body {
 
         &__row-one-text-details {
             font-size: 6rem;
-         
         }
-
     }
 
     .footer {
@@ -387,6 +340,5 @@ body {
             background-image: url('../img/hala/footer1_1920.jpg');
         }
     }
-
 }
 
