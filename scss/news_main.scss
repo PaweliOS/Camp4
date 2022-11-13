@@ -73,8 +73,9 @@ body {
     &__box-column {
         width: 355px;
         text-align: center;
-        margin: .5rem 0 .5rem;
+        margin: .5rem auto .5rem;
         border-radius: 8px;
+        overflow: hidden;
     }
 }
 
