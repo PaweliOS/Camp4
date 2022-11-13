@@ -70,10 +70,10 @@ body {
   text-align: center;
   margin: 0.5rem auto 0.5rem;
   border-radius: 8px;
-  overflow: hidden;
 }
 
 .fb-post {
+  width: 103%;
   margin-bottom: 2rem;
   border: 2px solid rgb(254, 117, 5);
   border-radius: 4px;
