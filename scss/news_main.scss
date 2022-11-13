@@ -16,6 +16,7 @@ html {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
     width: 100vw;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     background: $bodyGradientGrey;
@@ -62,7 +63,7 @@ body {
 
 .news {
     position: relative;
-    padding: 2rem;
+    padding: 1rem 0.1rem;
     &__box-row-one {
         display: flex;
         flex-wrap: wrap;
@@ -70,9 +71,9 @@ body {
     }
 
     &__box-column {
-        width: 350px;
+        width: 355px;
         text-align: center;
-        margin: 1rem auto 1rem;
+        margin: .5rem 0 .5rem;
         border-radius: 8px;
     }
 }
